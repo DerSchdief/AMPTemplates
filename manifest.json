@@ -1,9 +1,9 @@
 {
-	"id": "ec280171-c67b-4cf8-923f-dc27fea91ee1",
-	"authors": ["CubeCoders Limited", "AMP Community"],
-	"origin": "https://github.com/CubeCoders/AMPTemplates.git",
-	"url": "https://github.com/CubeCoders/AMPTemplates",
+	"id": "348c8630-1c47-417b-8f52-ed0051144c6f",
+	"authors": ["DerSchdief"],
+	"origin": "https://github.com/DerSchdief/AMPTemplates.git",
+	"url": "https://github.com/DerSchdief/AMPTemplates",
 	"imagefile": "",
-	"prefix": "",
+	"prefix": "DerSchdief",
 	"repotype": "AppTemplates"
 }
