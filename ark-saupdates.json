@@ -11,7 +11,7 @@
         "UpdateSourcePlatform":"All",
         "UpdateSource":"GithubRelease",
         "UpdateSourceArgs":"ServersHub/ServerAPI",
-        "UpdateSourceTarget":"{{$FullBaseDir}}/ShooterGame/Binaries/Win64/",
+        "UpdateSourceTarget":"{{$FullBaseDir}}ShooterGame/Binaries/Win64/",
         "UnzipUpdateSource":true,
         "OverwriteExistingFiles":true,
         "DeleteAfterExtract":true,
@@ -22,8 +22,8 @@
         "UpdateStageName":"Binary Copy",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"CopyFilePath",
-        "UpdateSourceData":"{{$FullBaseDir}}/ShooterGame/Binaries/Win64/ASAServer.exe",
-        "UpdateSourceArgs":"{{$FullRootDir}}/ShooterGame/Binaries/Win64/ArkAscendedServer.exe",
+        "UpdateSourceData":"{{$FullBaseDir}}ShooterGame/Binaries/Win64/ASAServer.exe",
+        "UpdateSourceArgs":"{{$FullBaseDir}}ShooterGame/Binaries/Win64/ArkAscendedServer.exe",
         "OverwriteExistingFiles":true,
         "UpdateSourceConditionSetting":"EnableServerAPI",
         "UpdateSourceConditionValue":"false"
@@ -32,8 +32,8 @@
         "UpdateStageName":"Binary Copy",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"CopyFilePath",
-        "UpdateSourceData":"{{$FullBaseDir}}/ShooterGame/Binaries/Win64/ASAServer.exe",
-        "UpdateSourceArgs":"{{$FullRootDir}}/ShooterGame/Binaries/Win64/AsaApiLoader.exe",
+        "UpdateSourceData":"{{$FullBaseDir}}ShooterGame/Binaries/Win64/ASAServer.exe",
+        "UpdateSourceArgs":"{{$FullBaseDir}}ShooterGame/Binaries/Win64/AsaApiLoader.exe",
         "OverwriteExistingFiles":true,
         "UpdateSourceConditionSetting":"EnableServerAPI",
         "UpdateSourceConditionValue":"true"
@@ -42,7 +42,7 @@
         "UpdateStageName":"Config Directory Creation",
         "UpdateSourcePlatform":"All",
         "UpdateSource":"CreateDirectory",
-        "UpdateSourceArgs":"{{$FullBaseDir}}/ShooterGame/Saved/Config/WindowsServer",
+        "UpdateSourceArgs":"{{$FullBaseDir}}ShooterGame/Saved/Config/WindowsServer",
         "OverwriteExistingFiles":false
     },
     {
@@ -51,7 +51,7 @@
         "UpdateSource":"FetchURL",
         "UpdateSourceData":"https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/ark-sagame.ini",
         "UpdateSourceArgs":"Game.ini",
-        "UpdateSourceTarget":"{{$FullBaseDir}}/ShooterGame/Saved/Config/WindowsServer/",
+        "UpdateSourceTarget":"{{$FullBaseDir}}ShooterGame/Saved/Config/WindowsServer/",
         "OverwriteExistingFiles":false
     },
     {
@@ -60,7 +60,7 @@
         "UpdateSource":"FetchURL",
         "UpdateSourceData":"https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/ark-sawin-gameusersettings.ini",
         "UpdateSourceArgs":"GameUserSettings.ini",
-        "UpdateSourceTarget":"{{$FullBaseDir}}/ShooterGame/Saved/Config/WindowsServer/",
+        "UpdateSourceTarget":"{{$FullBaseDir}}ShooterGame/Saved/Config/WindowsServer/",
         "OverwriteExistingFiles":false
     },
     {
